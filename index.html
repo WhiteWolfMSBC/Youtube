@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Tube</title>
+
+    <!-- Bootstrap -->
+
+    <!-- CSS bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- JavaScript bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+
+    <!-- FavIcon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Css -->
+
+    <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+
+<body>
+
+
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <!-- Toogle icons -->
+
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="openNav()"
+                class="openbtn icon icon-tabler icon-tabler-menu-2 mb-3 me-4 ms-3 text-dark" width="30" height="30"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="4" y1="6" x2="20" y2="6"></line>
+                <line x1="4" y1="12" x2="20" y2="12"></line>
+                <line x1="4" y1="18" x2="20" y2="18"></line>
+            </svg>
+
+            <a class="navbar-brand" href="#"><img class=" img-fluid mb-3" src="Images/2.png" width="120px" height="50px"
+                    alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <form class="container-fluid text-center ms-1">
+                    <div class="input-group mb-4">
+                        <input type="text" class="form-control" placeholder="Serch" aria-label="Recipient's username"
+                            aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="10" cy="10" r="7"></circle>
+                                <line x1="21" y1="21" x2="15" y2="15"></line>
+                            </svg></span>
+                    </div>
+                </form>
+
+
+                <form class="navbar-d d-flex" role="search">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-microphone"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <rect x="9" y="2" width="6" height="11" rx="3"></rect>
+                                <path d="M5 10a7 7 0 0 0 14 0"></path>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="navbar-nav nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="12" cy="12" r="1"></circle>
+                                    <circle cx="12" cy="19" r="1"></circle>
+                                    <circle cx="12" cy="5" r="1"></circle>
+                                </svg>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item ms-3" href="#"><img src="Images/3.jpg"
+                                            class="navbar-img1 img-fluid mt-4 ms-5 text-center" width="32px"
+                                            height="32px"></a></li>
+
+                                <li class="navbar-txt"><a class="dropdown-item" href="#">
+                                        <h6 class=" text-center mt-2">Ravi Sachin</h6>
+                                    </a></li>
+                                <li class="navbar-txt1"><a class="dropdown-item" href="#">
+                                        <h6 class=" text-center text-secondary">ravisachin36@gmail.com</h6>
+                                    </a></li>
+                                <li class="navbar-txt2"><a class="dropdown-item" href="#"><small
+                                            class=" font-weight-bold">Manage your Google Account</small></a></li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="navbar-txt3"><a class="dropdown-item" href="#">
+                                        <h6 class="text-center"><svg xmlns="http://www.w3.org/2000/svg"
+                                                class=" icon icon-tabler icon-tabler-user-plus" width="22" height="22"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="black" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                <circle cx="9" cy="7" r="4" />
+                                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                                <path d="M16 11h6m-3 -3v6" />
+                                            </svg>&nbsp;&nbsp;&nbsp;Add another account</h6>
+                                    </a></li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-center" href="#"><button
+                                            class="btn1 btn btn-danger text-center">Sign out</button></a></li>
+                            </ul>
+                        </li>
+
+
+                        <!-- Button trigger modal -->
+
+                        <li class="nav-item dropdown mt-1">
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle"
+                                    width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                    <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"></path>
+                                </svg>SignIn</button>
+                        </li>
+
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <form action="" method="post">
+                                            <div class="imgcontainer">
+                                                <img src="Images/1.png" alt="Avatar" class="avatar">
+                                            </div>
+
+                                            <div class="container">
+                                                <label for="uname"><b>Username</b></label>
+                                                <input type="text" class="form-control" placeholder="Enter Username"
+                                                    name="uname" required>
+
+                                                <label for="psw"><b>Password</b></label>
+                                                <input type="password" class="form-control" placeholder="Enter Password"
+                                                    name="psw" required>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-success" type="submit">Login</button>
+                                        <label>
+                                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                                        </label>
+                                    </div>
+
+                                    <div class="container" style="background-color:#f1f1f1">
+                                        <button type="button" class="btn btn-danger"
+                                            data-bs-dismiss="modal">Cancel</button>
+                                        <span class="psw">Forgot <a href="#" class="text-primary">password?</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            </ul>
+
+            </form>
+        </div>
+        </div>
+    </nav>
+
+
+    <!-- Toogle Icons -->
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+        <ul type="none">
+            <li><a class="icon-inbox" href="index.html"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-smart-home text-danger" width="24" height="24"
+                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105">
+                        </path>
+                        <path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0"></path>
+                    </svg> <span class="ms-3 text-danger">Home</span></a></li>
+
+            <li><a class="icon-star" href="Promotion.html"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-compass" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <polyline points="8 16 10 10 16 8 14 14 8 16"></polyline>
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <line x1="12" y1="3" x2="12" y2="5"></line>
+                        <line x1="12" y1="19" x2="12" y2="21"></line>
+                        <line x1="3" y1="12" x2="5" y2="12"></line>
+                        <line x1="19" y1="12" x2="21" y2="12"></line>
+                    </svg> <span class="ms-3 text-dark">Explore</span></a></li>
+
+            <li><a class="icon-star" href="Social.html"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-brand-tiktok" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5"></path>
+                    </svg> <span class="ms-3 text-dark">Shorts</span></a></li>
+
+            <li><a class="icon-star" href="index.html"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-brand-spotify" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <path d="M8 11.973c2.5 -1.473 5.5 -.973 7.5 .527"></path>
+                        <path d="M9 15c1.5 -1 4 -1 5 .5"></path>
+                        <path d="M7 9c2 -1 6 -2 10 .5"></path>
+                    </svg> <span class="ms-3 text-dark">Subscribe</span></a></li>
+
+
+            <hr class="text-muted">
+
+
+            <li><a class="icon-star" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book-2" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z"></path>
+                        <path d="M19 16h-12a2 2 0 0 0 -2 2"></path>
+                        <path d="M9 8h6"></path>
+                    </svg><span class="ms-3 text-dark">Library</span></a></li>
+
+            <li><a class="icon-star" data-bs-toggle="modal" data-bs-target="#exampleModal1"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-history" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <polyline points="12 8 12 12 14 14"></polyline>
+                        <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5"></path>
+                    </svg><span class="ms-3 text-dark">History</span></a></li>
+
+
+            <hr class="text-muted">
+
+            <li><a class="icon-star" href=""><span class="text-secondary mt-2 mb-3">Explore</span></a></li>
+
+            <li><a class="icon-star" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-music" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <circle cx="6" cy="17" r="3"></circle>
+                        <circle cx="16" cy="17" r="3"></circle>
+                        <polyline points="9 17 9 4 19 4 19 17"></polyline>
+                        <line x1="9" y1="8" x2="19" y2="8"></line>
+                    </svg><span class="ms-3 text-dark">Music</span></a></li>
+
+            <li><a class="icon-star" data-bs-toggle="modal" data-bs-target="#exampleModal1"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trophy" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                        <line x1="7" y1="4" x2="17" y2="4"></line>
+                        <path d="M17 4v8a5 5 0 0 1 -10 0v-8"></path>
+                        <circle cx="5" cy="9" r="2"></circle>
+                        <circle cx="19" cy="9" r="2"></circle>
+                    </svg><span class="ms-3 text-dark">Sports</span></a></li>
+
+            <li><a class="icon-star" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-gamepad-2"
+                        width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4z">
+                        </path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232"></path>
+                        <path d="M8 9v2"></path>
+                        <path d="M7 10h2"></path>
+                        <path d="M14 10h2"></path>
+                    </svg><span class="ms-3 text-dark">Gaming</span></a></li>
+
+            <li><a class="icon-star" data-bs-toggle="modal" data-bs-target="#exampleModal1"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-movie" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                        <line x1="8" y1="4" x2="8" y2="20"></line>
+                        <line x1="16" y1="4" x2="16" y2="20"></line>
+                        <line x1="4" y1="8" x2="8" y2="8"></line>
+                        <line x1="4" y1="16" x2="8" y2="16"></line>
+                        <line x1="4" y1="12" x2="20" y2="12"></line>
+                        <line x1="16" y1="8" x2="20" y2="8"></line>
+                        <line x1="16" y1="16" x2="20" y2="16"></line>
+                    </svg><span class="ms-3 text-dark">Movies</span></a></li>
+
+            <li><a class="icon-star" data-bs-toggle="modal" data-bs-target="#exampleModal1"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-news" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11">
+                        </path>
+                        <line x1="8" y1="8" x2="12" y2="8"></line>
+                        <line x1="8" y1="12" x2="12" y2="12"></line>
+                        <line x1="8" y1="16" x2="12" y2="16"></line>
+                    </svg><span class="ms-3 text-dark">News</span></a></li>
+        </ul>
+    </div>
+    <div id="main">
+    </div>
+
+
+
+
+
+
+    <!-- Button section -->
+
+    <div class="Button-container container-xl container-lg container-md container-sm container-xs">
+        <hr>
+
+        <div class="Button-container_row row">
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-secondary">All</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">Songs</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">Movies</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">JavaScript</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">Html5</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">Css3</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">Angular</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">Class</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">Object</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">CRUD</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">Promises</button></div>
+
+            <div class="Button_container_col col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12"><button
+                    class="Button-container_btn btn btn-outline-secondary">Array</button></div>
+        </div>
+        <hr>
+
+    </div>
+
+
+
+
+
+    <!-- youtube Premium -->
+
+
+    <div class="Youtubepre-container container-xl container-lg container-md container-sm container-xs mt-5">
+
+        <div class="Youtubepre-container_row row">
+
+            <div class="Youtubepre-container_col1 col-xl-5 col-lg-4 col-md-3 col-sm-12 col-xs-12">
+
+                <div id="myDIV">
+                    <img src="Images/4.png" class="img-fluid" width="150px" height="100px" alt="">
+
+                    <h1 class="text-dark mt-4"><b>Introducing 1 month & 3 month Prepaid Plans</b></h1>
+
+                    <button class="btn btn-outline-secondary text-dark mt-3 px-5">Get It Now</button>
+                </div>
+
+            </div>
+
+            <div class="Youtubepre-container_col2 col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 "></div>
+
+
+            <div class="Youtubepre-container_col3 col-xl-4 col-lg-3 col-md-2 col-sm-12 col-xs-12 ">
+                <svg xmlns="http://www.w3.org/2000/svg" onclick="myFunction()"
+                    class="icon icon-tabler icon-tabler-arrows-minimize" width="24" height="24" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <polyline points="5 9 9 9 9 5"></polyline>
+                    <line x1="3" y1="3" x2="9" y2="9"></line>
+                    <polyline points="5 15 9 15 9 19"></polyline>
+                    <line x1="3" y1="21" x2="9" y2="15"></line>
+                    <polyline points="19 9 15 9 15 5"></polyline>
+                    <line x1="15" y1="9" x2="21" y2="3"></line>
+                    <polyline points="19 15 15 15 15 19"></polyline>
+                    <line x1="15" y1="15" x2="21" y2="21"></line>
+                </svg>
+
+            </div>
+
+        </div>
+
+
+
+        <hr class="text-muted">
+
+
+        <!-- Video Section -->
+
+
+
+
+        <div class="Youtubepre-container container-xl container-lg container-md container-sm container-xs mt-5">
+
+            <div class="Youtubepre-container_row row">
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/1.mp4" class="card-img-top" controls poster="Images/5.webp"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/2.mp4" class="card-img-top" controls poster="Images/6.jpeg"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/3.mp4" class="card-img-top" controls poster="Images/7.webp"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/4.mp4" class="card-img-top" controls poster="Images/8.webp"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- 1 section -->
+
+
+
+
+            <div class="Youtubepre-container_row row mt-5">
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/5.mp4" class="card-img-top" controls poster="Images/9.webp"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/6.mp4" class="card-img-top" controls poster="Images/10.jpg"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/7.mp4" class="card-img-top" controls poster="Images/11.jpeg"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/8.mp4" class="card-img-top" controls poster="Images/12.jpg"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- 2 section -->
+
+
+            <div class="Youtubepre-container_row row mt-5">
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/1.mp4" class="card-img-top" controls poster="Images/5.webp"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/2.mp4" class="card-img-top" controls poster="Images/6.jpeg"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/3.mp4" class="card-img-top" controls poster="Images/7.webp"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/4.mp4" class="card-img-top" controls poster="Images/8.webp"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <!-- 3 section -->
+
+            <div class="Youtubepre-container_row row mt-5">
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/5.mp4" class="card-img-top" controls poster="Images/9.webp"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/6.mp4" class="card-img-top" controls poster="Images/10.jpg"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/7.mp4" class="card-img-top" controls poster="Images/11.jpeg"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="Youtubepre-container_col col-xl-3 col-lg-2 col-md-1 col-sm-12 col-xs-12 mt-5">
+
+                    <div class="card" style="width: 18rem; height: 19rem;">
+                        <video src="Video/8.mp4" class="card-img-top" controls poster="Images/12.jpg"></video>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4"><img src="Images/3.jpg" width="80px" height="80px"
+                                        class="card-body img-fluid" alt=""></div>
+
+                                <div class="col-xl-8 mt-2">
+                                    <h5 class="card-title"><span class="card-body_txt  text-dark ms-1">Cloning an
+                                            Object</span></h5>
+
+                                    <p class="card-text text-secondary">RaviCodingLife <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-circle-check text-light" width="24"
+                                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                            fill="gray" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <path d="M9 12l2 2l4 -4"></path>
+                                        </svg> <br>
+                                        275k views . 2yearago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Pop Up Chat  -->
+
+
+
+    <div class="Pop-container container-xl container-lg container-md containersm container-xs container-fluid mt-5">
+
+        <button class="open-button" onclick="openForm()"><img src="Images/1 - Copy.png" class="img-fluid" alt=""></button>
+
+        <div class="chat-popup" id="myForm">
+            <form action="" class="form-container">
+                <a href=""><img src="Images/4.png" width="200px" height="50px" alt=""></a>
+
+                <hr>
+
+                <label class="text-secondary" for="msg"><b>Msg Me !!..</b></label>
+
+                <hr>
+
+                <textarea placeholder="Any Query Regarding This offer please contact Our Executive" name="msg"
+                    required></textarea>
+
+                <button type="submit" class="btn btn-success form-control mb-2">Send</button>
+                <button type="button" class="btn cancel btn btn-danger form-control"
+                    onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- GO TO TOP -->
+
+
+    <div class="go-top-container container-xl container-lg container-md containersm container-xs container-fluid mt-5">
+        <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-up" width="24" height="24"
+                viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="white" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M18 14l-6 -6l-6 6h12"></path>
+            </svg>
+        </a>
+    </div>
+
+
+    <!-- Table -->
+
+    <div class="table-container container-xl container-lg container-md container-sm container-xs mt-5">
+        <h1>Api Data Fetch</h1>
+        <table id="gittable"
+            class="table table-light table-striped table-hover table-xl table-lg table-md table-sm table-xs mt-5">
+        </table>
+    </div>
+
+
+
+
+    <!-- Js -->
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

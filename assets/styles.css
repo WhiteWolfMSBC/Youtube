@@ -1,0 +1,239 @@
+body {
+    font-family: 'SamsungOne',arial,sans-serif;
+}
+
+
+  /* Toggle slidebar */
+
+  .sidebar {
+    margin-top: 55px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+
+
+  .icon-inbox{
+    background-color: rgb(239, 235, 235);
+    border-top-right-radius: 60px;
+    border-bottom-right-radius:60px ;
+  }
+ .icon-inbox:hover{
+    background-color: rgb(248, 189, 189);
+    border-top-right-radius: 60px;
+    border-bottom-right-radius:60px ;
+  }
+   
+  .icon-star:hover{
+    background-color: rgb(239, 235, 235);
+    border-top-right-radius: 60px;
+    border-bottom-right-radius:60px ;
+  }
+
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    cursor: pointer;
+  }
+  
+ 
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+
+/* Coding */
+
+.navbar-d{
+    margin-right: 100px;
+  }
+
+  .navbar-img{
+    border-radius: 50%;
+  }
+
+  .navbar-img:hover{
+    border: 3px solid gray;
+  }
+  .navbar-img1{
+    border-radius: 50%;
+    background-position: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .navbar-txt:hover{
+    background-color: lightcoral;
+  }
+  .navbar-txt1:hover{
+    background-color: lightblue;
+  }
+  .navbar-txt2:hover{
+    background-color:lightgoldenrodyellow;
+  }
+  .navbar-txt3:hover{
+    background-color: lightgreen;
+  }
+  .navbar-span{
+    font-size: 20px;
+  }
+  .Button-container_btn{
+    border-radius: 50%;
+  }
+  .Button-container{
+    margin-top: -65px
+  }
+.Youtubepre-container_col3{
+    text-align: right;
+}
+.card-body{
+    border-radius: 50%;
+}
+.card-body_txt{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+
+ /* Pop Up Chat Button */
+
+ .open-button {
+    border-radius: 50%;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      opacity: 0.8;
+      position: fixed;
+      bottom: 23px;
+      right: 28px;
+      width: 100px;
+    }
+    
+    .chat-popup {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      right: 15px;
+      border: 3px solid #f1f1f1;
+      z-index: 9;
+    }
+    
+    .form-container {
+      max-width: 250px;
+      padding: 10px;
+      background-color: white;
+    }
+    
+    .form-container textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: white;
+      resize: none;
+      min-height: 200px;
+    }
+    
+    .form-container textarea:focus {
+      background-color: rgb(247, 243, 243);
+      outline: none;
+    }
+    
+    .form-container .btn:hover,
+    .open-button:hover {
+      opacity: 1;
+    }
+  
+
+
+
+  /* Go to Top */
+
+.go-top {
+    position: fixed;
+    bottom: 0;
+    left: 15px;
+    background-color: rgb(238, 51, 51);
+    padding: 10px;
+    border-radius: 6px;
+    visibility: hidden;
+    opacity: 0;
+    transition: -1;
+  }
+  
+  .go-top.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-15px);
+  }
+  
+  .go-top:is(:hover, :focus) {
+    transform: translateY(-25px);
+  }
+
+
+
+
+
+
+  /* model */
+
+
+  .imgcontainer {
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
